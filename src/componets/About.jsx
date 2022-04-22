@@ -15,17 +15,24 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. I'm Alondra, nice to meet you. Explore my work!</p>
+            <p>I'm Alondra, nice to meet you. Explore my work!</p>
             <img className='w-100 pt-2 mx-auto' src={Headshot} alt="my picture" />
           </div>
           <div>
             I am passionate about creating outstanding projects that impact the
             lives of others. I strive to make an impact in a
             large corporation while continuing to develop my skills and
-            knowledge. I've specialized in developing projects during my
-            coding apprenticeship with Road to Hire while also working in teams
-            to enchance my engineering skills.
-          </div>
+            knowledge. 
+            <br/>
+            <br/>
+            I started my career in Web Development in a coding apprenticeship with Road to Hire, 
+            a non-profit organization paving the way for minorities. 
+            <br/>
+            <br/>
+            I've worked on multiple projects I am extremely proud of. 
+            Starting with creating a basic HTML & CSS website, presenting 5-7 minute speeches, learning JavaScript,
+            designing an app using APIs, to developing a full stack eCommerce shop using Node.js, React & MySQL.
+            </div>
         </div>
       </div>
     </div>

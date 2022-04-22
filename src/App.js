@@ -4,6 +4,8 @@ import About from "./componets/About"
 import Skills from "./componets/Skills"
 import Projects from "./componets/Projects"
 import Contact from "./componets/Contact"
+import GroupProjects from "./componets/GroupProjects"
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <GroupProjects />
       <Contact />
     </div>
   );

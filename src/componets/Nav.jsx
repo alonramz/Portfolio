@@ -21,11 +21,6 @@ const Nav = () => {
       <ul className="hidden md:flex">
         {/* react scroll */}
         <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
@@ -43,6 +38,11 @@ const Nav = () => {
         <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
+          </Link>
+        </li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
           </Link>
         </li>
       </ul>
@@ -95,7 +95,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/ramirezalondra"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -103,7 +103,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/alonramz"
             >
               Github <FaGithub size={30} />
             </a>
@@ -119,7 +119,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://docs.google.com/document/d/1YkqavAHh9DoKdc8I2pP7sE3n3Q85rMYFlzvYKsEsA4I/edit?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
