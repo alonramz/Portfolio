@@ -27,8 +27,6 @@ const About = () => {
             <br/>
             I started my career in Web Development in a coding apprenticeship with Road to Hire, 
             a non-profit organization paving the way for minorities. 
-            <br/>
-            <br/>
             I've worked on multiple projects I am extremely proud of. 
             Starting with creating a basic HTML & CSS website, presenting 5-7 minute speeches, learning JavaScript,
             designing an app using APIs, to developing a full stack eCommerce shop using Node.js, React & MySQL.

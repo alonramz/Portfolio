@@ -36,6 +36,11 @@ const Nav = () => {
           </Link>
         </li>
         <li>
+          <Link to="groupprojects" smooth={true} duration={500}>
+            Group Projects
+          </Link>
+        </li>
+        <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -80,6 +85,11 @@ const Nav = () => {
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
             Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="groupprojects" smooth={true} duration={500}>
+            Group Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
