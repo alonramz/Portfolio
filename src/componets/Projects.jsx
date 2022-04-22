@@ -47,7 +47,7 @@ const Projects = () => {
                 e-Commerce Shop: Web Accessibility, Node JS, React, JSON, & MySQL
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://losaromas.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Preview
                   </button>
