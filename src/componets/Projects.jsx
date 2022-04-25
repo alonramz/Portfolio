@@ -26,12 +26,17 @@ const Projects = () => {
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-1xl font-bold text-white tracking-wider">
-                Gateway: Beginner Basic HTML & CSS Flexbox
+                Gateway: beginner basic HTML & CSS flexbox
               </span>
               <div className="pt-8 text-center">
-                <a href="https://alonramz.github.io/Oaxaca-Mexico/">
+                <a href="https://alonramz.github.io/Oaxaca-Mexico/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Preview
+                  </button>
+                </a>
+                <a href='https://github.com/alonramz/Oaxaca-Mexico' rel="noopener noreferrer" target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
                   </button>
                 </a>
               </div>
@@ -44,12 +49,17 @@ const Projects = () => {
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-1xl font-bold text-white tracking-wider">
-                eCommerce Shop: Web Accessibility, Node JS, React, JSON, & MySQL
+                eCommerce Shop: web accessibility, Node.JS, React, JSON, & MySQL
               </span>
               <div className="pt-8 text-center">
-                <a href="https://losaromas.herokuapp.com/">
+                <a href="https://losaromas.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Preview
+                  </button>
+                </a>
+                <a href='https://github.com/alonramz/LosAromas321' rel="noopener noreferrer" target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
                   </button>
                 </a>
               </div>

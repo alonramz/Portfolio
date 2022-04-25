@@ -28,12 +28,17 @@ const Projects = () => {
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-1xl font-bold text-white tracking-wider">
-                Created Movie Page for Netflix Resdesign
+                Created movie page for Netflix resdesign
               </span>
               <div className="pt-8 text-center">
-                <a href="https://netflix-redesign-project.herokuapp.com/">
+                <a href="https://netflix-redesign-project.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Preview
+                  </button>
+                </a>
+                <a href='https://github.com/Dood3l/netflix-redesign' rel="noopener noreferrer" target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
                   </button>
                 </a>
               </div>
@@ -46,12 +51,17 @@ const Projects = () => {
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-1xl font-bold text-white tracking-wider">
-                Created Recipe page using 3rd Party API
+                Created recipe page using 3rd Party API
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Preview
+                  </button>
+                </a>
+                <a href='https://github.com/alonramz/Hope-Hacks' rel="noopener noreferrer" target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
                   </button>
                 </a>
               </div>
