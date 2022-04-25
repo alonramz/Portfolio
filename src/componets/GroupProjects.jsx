@@ -6,7 +6,7 @@ import HopeHack from "../assets/hopehack.png";
 const Projects = () => {
   return (
     <div
-      name="projects"
+      name="groupprojects"
       className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
       {/* container for projects */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
