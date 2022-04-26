@@ -54,12 +54,12 @@ const Projects = () => {
                 Created recipe page using 3rd Party API
               </span>
               <div className="pt-8 text-center">
-                <a href="/" rel="noopener noreferrer" target="_blank">
+                <a href="https://eat-smart-nodejs.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Preview
                   </button>
                 </a>
-                <a href='https://github.com/alonramz/Hope-Hacks' rel="noopener noreferrer" target="_blank">
+                <a href='https://github.com/VanRlan/Hope-Hacks' rel="noopener noreferrer" target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
